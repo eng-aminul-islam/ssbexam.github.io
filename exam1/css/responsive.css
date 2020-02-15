@@ -25,7 +25,7 @@
         font-size: 16px !important;
     }
     #banner-part {
-        height: 80vh;
+        height: 100vh;
     }
     #banner-part .banner-text h1 {
         font-size: 25px !important;
@@ -182,7 +182,7 @@
         font-size: 16px !important;
     }
     #banner-part {
-        height: 75vh;
+        height: 100vh;
     }
     #banner-part .banner-text h1 {
         font-size: 30px !important;
@@ -342,7 +342,7 @@
         font-size: 25px !important;
     }
     #banner-part {
-        height: 80vh;
+        height: 100vh;
     }
     #banner-part .banner-text h1 {
         font-size: 39px !important;
