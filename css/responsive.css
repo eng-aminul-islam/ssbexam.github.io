@@ -1,0 +1,577 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media (max-width: 575.98px) {
+    .navbar button {
+        outline: 0;
+        margin-right: 10px;
+        font-size: 30px;
+        margin-top: auto;
+    }
+    .navbar-brand {
+        width: 70%;
+    }
+    #navbarNav ul {
+        margin-top: -10px !important;
+        text-align: right;
+        padding-bottom: 10px;
+        margin-right: 30px;
+    }
+    #navbarNav ul .nav-item {
+        margin-top: 10px !important;
+        border: 0;
+        padding: 0;
+    }
+    #navbarNav ul li a {
+        font-size: 16px !important;
+    }
+    #banner-part {
+        height: 80vh;
+    }
+    #banner-part .banner-text h1 {
+        font-size: 25px !important;
+    }
+    #banner-part .banner-text p {
+        font-size: 11px !important;
+    }
+    #banner-part .banner-text.jumbotron {
+        top: -15px !important;
+        padding: 15px 10px 15px 70px !important;
+    }
+    /* Main Moto Responsive */
+    #main-moto {
+        margin-bottom: 60px;
+    }
+    #main-moto .media img {
+        margin-top: 4px;
+        padding-right: 5px;
+        width: 30%;
+    }
+    #main-moto .media {
+        padding: 0 30px;
+    }
+    #main-moto .media-body {
+        font-size: 10px;
+    }
+    #main-moto .media-body h5 {
+        font-size: 24px;
+    }
+    /* Expert Part Responsive */
+    #expert {
+        height: auto;
+        margin-bottom: 70px;
+        text-align: center;
+        background-size: contain;
+    }
+    #expert h1 {
+        font-size: 4.5vw;
+        line-height: 6;
+    }
+    #types {
+        padding-bottom: 20px;
+    }
+    #types .title h3 {
+        font-size: 30px !important;
+    }
+    #types .media {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    #types .media img {
+        width: 120px;
+        height: 133px;
+    }
+    #types .media-body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    #types .media-body h5 {
+        font-size: 21px;
+    }
+    #service-part {
+        padding: 50px 0;
+    }
+    #service-part .btn-info {
+        margin-bottom: 15px;
+    }
+    #blog-part {
+        margin: 35px 0 50px 0;
+        height: auto;
+    }
+    #blog-part .title h3 {
+        font-size: 28px !important;
+    }
+    #blog-part img {
+        height: 250px;
+        object-fit: contain;
+    }
+    #blog-part .article-text {
+        text-align: center;
+    }
+    #blog-part .article-text h4 {
+        padding-bottom: 10px;
+        margin-top: 20px;
+        border-bottom: 1px solid;
+        font-size: 30px;
+    }
+    #blog-part .article-text p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        font-size: 14px;
+        text-align: justify;
+    }
+    #propose-part {
+        padding: 40px 0 60px 0;
+    }
+    #propose-part .media img {
+        height: 350px;
+        width: 240px;
+        object-fit: contain;
+    }
+    #partner-area {
+        padding: 50px 0 65px 0;
+    }
+    #partner-area .title h3 {
+        font-size: 30px !important;
+    }
+    #partner-area img {
+        height: 70px;
+        object-fit: contain;
+        margin-top: 35px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    footer .btn-info {
+        padding: 13px 25px;
+    }
+    footer .footer-widget {
+        padding: 15px 25px;
+    }
+    footer .footer-widget h4 {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar button {
+        outline: 0;
+        margin-right: 10px;
+        font-size: 30px;
+        margin-top: auto;
+    }
+    .navbar-brand {
+        width: 70%;
+    }
+    #navbarNav ul {
+        margin-top: -10px !important;
+        text-align: right;
+        padding-bottom: 10px;
+        margin-right: 30px;
+    }
+    #navbarNav ul .nav-item {
+        margin-top: 10px !important;
+        border: 0;
+        padding: 0;
+    }
+    #navbarNav ul li a {
+        font-size: 16px !important;
+    }
+    #banner-part {
+        height: 75vh;
+    }
+    #banner-part .banner-text h1 {
+        font-size: 30px !important;
+    }
+    #banner-part .banner-text p {
+        font-size: 13px !important;
+    }
+    #banner-part .banner-text.jumbotron {
+        top: -15px !important;
+        padding: 15px 10px 15px 70px !important;
+    }
+    /* Main Moto Responsive */
+    #main-moto {
+        margin-bottom: 60px;
+    }
+    #main-moto .media img {
+        margin-top: 4px;
+        padding-right: 5px;
+        width: 100px;
+    }
+    #main-moto .media {
+        padding: 0 7px;
+    }
+    #main-moto .media-body {
+        font-size: 12px;
+    }
+    #main-moto .media-body h5 {
+        font-size: 25px;
+    }
+    /* Expert Part Responsive */
+    #expert {
+        height: auto;
+        margin-bottom: 70px;
+        text-align: center;
+        background-size: contain;
+    }
+    #expert h1 {
+        font-size: 3.1vw;
+        line-height: 6;
+    }
+    #types .title h3 {
+        font-size: 30px !important;
+    }
+    #types .media {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    #types .media img {
+        width: 120px;
+        height: 133px;
+    }
+    #types .media-body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    #types .media-body h5 {
+        font-size: 21px;
+    }
+    #service-part {
+        padding: 50px 0;
+    }
+    #service-part .btn-info {
+        margin-bottom: 15px;
+    }
+    #blog-part {
+        margin: 35px 0 50px 0;
+        height: auto;
+    }
+    #blog-part .title h3 {
+        font-size: 28px !important;
+    }
+    #blog-part img {
+        height: 250px;
+        object-fit: contain;
+    }
+    #blog-part .article-text {
+        text-align: center;
+    }
+    #blog-part .article-text h4 {
+        padding-bottom: 10px;
+        margin-top: 20px;
+        border-bottom: 1px solid;
+        font-size: 30px;
+    }
+    #blog-part .article-text p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        font-size: 14px;
+        text-align: justify;
+    }
+    #propose-part {
+        padding: 40px 0 60px 0;
+    }
+    #propose-part .media img {
+        height: 350px;
+        width: 240px;
+        object-fit: contain;
+    }
+    #partner-area {
+        padding: 50px 0 65px 0;
+    }
+    #partner-area .title h3 {
+        font-size: 30px !important;
+    }
+    #partner-area img {
+        height: 70px;
+        object-fit: contain;
+        margin-top: 35px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    footer .btn-info {
+        padding: 13px 25px;
+    }
+    footer .footer-widget {
+        padding: 15px 25px;
+    }
+    footer .footer-widget h4 {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .top-bar h5 {
+        font-size: 16px;
+    }
+    .top-bar .top-bar-right i {
+        font-size: 20px;
+    }
+    .navbar button {
+        outline: 0;
+        margin-right: 10px;
+        font-size: 40px;
+        margin-top: auto;
+    }
+    .navbar-brand {
+        width: 70%;
+    }
+    #navbarNav ul {
+        margin-top: -10px !important;
+        text-align: right;
+        padding-bottom: 10px;
+        margin-right: 30px;
+    }
+    #navbarNav ul .nav-item {
+        margin-top: 10px !important;
+        border: 0;
+        padding: 0;
+    }
+    #navbarNav ul li a {
+        font-size: 25px !important;
+    }
+    #banner-part {
+        height: 80vh;
+    }
+    #banner-part .banner-text h1 {
+        font-size: 39px !important;
+    }
+    #banner-part .banner-text p {
+        font-size: 17px !important;
+    }
+    #banner-part .banner-text.jumbotron {
+        top: -15px !important;
+        padding: 15px 10px 15px 70px !important;
+    }
+    /* Main Moto Responsive */
+    #main-moto {
+        margin-bottom: 60px;
+    }
+    #main-moto .media img {
+        margin-top: 4px;
+        padding-right: 5px;
+        width: 150px;
+    }
+    #main-moto .media {
+        padding: 0;
+    }
+    #main-moto .media-body {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    #main-moto .media-body h5 {
+        font-size: 40px;
+    }
+    #expert {
+        height: auto;
+        margin-bottom: 70px;
+        text-align: center;
+        background-size: contain;
+    }
+    #expert h1 {
+        font-size: 3.4vw;
+    }
+    #types {
+        padding-bottom: 50px;
+    }
+    #types .title h3 {
+        font-size: 30px !important;
+    }
+    #types .media {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    #types .title h3 {
+        font-size: 30px !important;
+    }
+    #types .media {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    #types .media img {
+        width: 170px;
+        height: 191px;
+    }
+    #types .media-body {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    #types .media-body h5 {
+        font-size: 33px;
+    }
+    #service-part img {
+        margin-bottom: 2px;
+        height: 180px;
+        object-fit: cover;
+    }
+    #service-part h3 {
+        font-size: 22px;
+    }
+    #service-part p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    #service-part button {
+        font-size: 18px;
+        width: 125px;
+        height: 40px;
+    }
+    #blog-part {
+        margin: 35px 0 50px 0;
+        height: auto;
+    }
+    #blog-part .title h3 {
+        font-size: 35px !important;
+    }
+    #blog-part img {
+        height: 400px;
+        object-fit: contain;
+    }
+    #blog-part .article-text {
+        text-align: center;
+    }
+    #blog-part .article-text h4 {
+        padding-bottom: 10px;
+        margin-top: 20px;
+        border-bottom: 1px solid;
+        font-size: 40px;
+    }
+    #blog-part .article-text p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        font-size: 20px;
+        text-align: justify;
+    }
+    #propose-part {
+        padding: 40px 0 60px 0;
+    }
+    #propose-part h5 {
+        font-size: 30px;
+    }
+    #propose-part .media-body {
+        font-size: 20px;
+    }
+    #propose-part .media img {
+        height: 350px;
+        width: 240px;
+        object-fit: contain;
+    }
+    #propose-part .media .media-body p {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    #partner-area {
+        padding: 50px 0 65px 0;
+    }
+    #partner-area .title h3 {
+        font-size: 30px !important;
+    }
+    #partner-area img {
+        height: 70px;
+        object-fit: contain;
+        margin-top: 35px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    footer .btn-info {
+        padding: 13px 25px;
+    }
+    footer .footer-widget {
+        padding: 15px 25px;
+    }
+    footer .footer-widget h4 {
+        margin-bottom: 10px;
+    }
+    .footer-logo p {
+        font-size: 20px;
+    }
+    .footer-logo .btn-info {
+        padding: 20px 55px;
+        font-size: 22px;
+    }
+    footer .footer-widget h4 {
+        font-size: 30px;
+    }
+    footer .footer-widget ul li a {
+        font-size: 19px !important;
+    }
+    footer .footer-widget ul li i {
+        font-size: 27px !important;
+    }
+    footer .contact-option i {
+        font-size: 35px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #banner-part .banner-text.jumbotron {
+        margin-left: -13%;
+        padding: 38px 20px 38px 135px;
+    }
+    #banner-part .banner-text h1 {
+        font-size: 54px;
+    }
+    #banner-part .banner-text p {
+        font-size: 23px;
+    }
+    #expert h1 {
+        font-size: 3.6vw;
+    }
+    #types .media-body {
+        font-size: 14px;
+        line-height: unset;
+        padding: 0;
+    }
+    #types .media-body h5 {
+        font-size: 16px;
+    }
+    #types .media img {
+        width: 125px;
+        height: 146px;
+    }
+    #blog-part img {
+        width: 100%;
+        height: 288px;
+        object-fit: cover;
+    }
+    #blog-part .article-text p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    #propose-part .media img {
+        height: 400px;
+        width: 261px;
+    }
+    #propose-part .media-body {
+        font-size: 12px;
+        line-height: 17px;
+        text-align: justify;
+    }
+    .footer-logo .btn-info {
+        padding: 20px 30px;
+        font-size: 14px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
